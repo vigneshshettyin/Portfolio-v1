@@ -243,20 +243,6 @@ const skills = {
             color: "#336791",
           },
         },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#47A248",
-        //   },
-        // },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
@@ -477,14 +463,6 @@ const contactPageData = {
     description:
       "I will reply within 24 hours. I can help you with Backend, React, Cloud and Opensource Development.",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write it on my own blog site.",
-    link: "https://vignesh-blog.herokuapp.com/",
-    avatar_image_path:
-      "https://vignesh-blog.herokuapp.com/static/images/upload/vignesh.jpg",
-  },
 };
 
 const projects = {
@@ -503,10 +481,6 @@ const projects = {
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
         },
         {
           name: "Python",
