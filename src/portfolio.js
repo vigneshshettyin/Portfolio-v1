@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-167291395-1",
 };
 
@@ -501,7 +501,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "1",
       name: "Bulk Mailer",
       url: "https://github.com/vigneshshettyin/Bulk-Mailer",
       description:
@@ -530,7 +530,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "2",
       name: "Online Certificate Generation & Verification",
       url:
         "https://github.com/vigneshshettyin/Online-Certificate-Generation-Verification",
@@ -552,6 +552,81 @@ const projects = {
         {
           name: "PHP",
           iconifyClass: "logos-php",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Developer Blog",
+      url: "https://github.com/vigneshshettyin/Developer-Blog-Flask",
+      description:
+        "The Complete Customizable Developer Blog Using Flask. Includes a backend dashboard with a rich text editor to add & edit blog.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Flask",
+          iconifyClass: "cib-flask",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Open-Source React",
+      url: "https://github.com/vigneshshettyin/React-Projects",
+      description:
+        "Realtime search results for climate and images, Covid-19 tracker, Particle-JS.....",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "React-Django Store",
+      url: "https://github.com/vigneshshettyin/React-Django",
+      description:
+        "Create a full-stack application with payment gateway integration in Django and react. Tech Stack Django V3 and modern react with hooks.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Django",
+          iconifyClass: "logos-django",
         },
       ],
     },
