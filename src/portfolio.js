@@ -586,8 +586,8 @@ const projects = {
     },
     {
       id: "4",
-      name: "Open-Source React",
-      url: "https://github.com/vigneshshettyin/React-Projects",
+      name: "Open Source React",
+      url: "https://github.com/vigneshshettyin/Open-Source-React",
       description:
         "Realtime search results for climate and images, Covid-19 tracker, Particle-JS.....",
       languages: [
