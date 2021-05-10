@@ -16,14 +16,14 @@ const greeting = {
   full_name: "Vignesh Shetty",
   subTitle: "Full Stack Developer & Open Source Enthusiast 🧑‍🚀",
   resumeLink: "#",
-  mail: "mailto:contact@vigneshshetty.in",
+  mail: "mailto:contact@vigneshcodes.in",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/vigneshshettyin",
   linkedin: "https://www.linkedin.com/in/vigneshshettyin/",
-  gmail: "contact@vigneshshetty.in",
+  gmail: "contact@vigneshcodes.in",
   facebook: "https://www.facebook.com/vigneshshettyin/",
   twitter: "https://twitter.com/vigneshshettyin",
   instagram: "https://www.instagram.com/vigneshshettyin/",
