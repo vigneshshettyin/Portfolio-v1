@@ -106,13 +106,13 @@ const skills = {
             color: "#DE33A6",
           },
         },
-        // {
-        //   skillName: "Android",
-        //   fontAwesomeClassname: "simple-icons:android",
-        //   style: {
-        //     color: "#3DDC84",
-        //   },
-        // },
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#3DDC84",
+          },
+        },
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -260,7 +260,7 @@ const degrees = {
     {
       title: "St Joseph Engineering College",
       subtitle: "B.E in Computer Science & Engineering",
-      logo_path: "https://sjec.ac.in/images/sjec-logo.png",
+      logo_path: "https://res.cloudinary.com/vigneshshettyin/image/upload/v1621757635/xpbjxxdadk7dtq6pztoy.png",
       alt_name: "SJEC MANGALORE",
       duration: "2018 - Present",
       descriptions: [
