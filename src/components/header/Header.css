@@ -55,7 +55,6 @@
 
 .menu {
   font-family: "Google Sans Regular";
-  background: #1d1d1d;
 }
 
 .header .menu {
@@ -70,7 +69,6 @@
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
