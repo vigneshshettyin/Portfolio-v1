@@ -10,7 +10,7 @@ import { Fade } from "react-reveal";
 function Education(props) {
   const theme = props.theme;
   return (
-    <div className="education-main">
+    <div className="education-main maint">
       <Header theme={props.theme} setTheme={props.setTheme} />
       <div className="basic-education">
         <Fade bottom duration={2000} distance="40px">
