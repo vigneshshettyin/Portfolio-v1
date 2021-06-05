@@ -62,9 +62,11 @@ function Header(props) {
       />
     );
 
+  const navbgcolor = props.theme.name === "dark" ? "#1d1d1d" : "#ffffff";
+
   return (
     <Fade top duration={1000} distance="20px">
-      <div>
+      <div className="headma" style={{ background: navbgcolor }}>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
@@ -77,7 +79,7 @@ function Header(props) {
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
-          <ul className="menu">
+          <ul className="menu" style={{ background: navbgcolor }}>
             <li>
               <NavLink
                 className="homei"

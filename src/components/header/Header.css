@@ -2,9 +2,18 @@
 
 .header {
   display: block;
-  max-width: 90%;
-  padding: 20px 10px;
+  position: fixed;
+  width: 100vw;
+  padding: 20px 3vw;
   margin: -10px auto;
+}
+
+.headma {
+  position: fixed !important;
+  height: 100px;
+  width: 99vw;
+  opacity: 1;
+  z-index: 123;
 }
 
 .header ul {
@@ -59,7 +68,6 @@
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
   float: right;
   padding: 28px 20px;
   position: relative;
@@ -211,8 +219,11 @@
   }
 
   .header {
-    padding-top: 10px;
     text-align: center;
+  }
+
+  .headma {
+    height: 70px;
   }
 }
 @media (max-width: 960px) and (min-width: 768px) {
