@@ -2,9 +2,18 @@
 
 .header {
   display: block;
-  max-width: 90%;
-  padding: 20px 10px;
+  position: fixed;
+  width: 100vw;
+  padding: 20px 3vw;
   margin: -10px auto;
+}
+
+.headma{
+  position: fixed!important;
+    height: 100px;
+    width: 99vw;
+    opacity: 1;
+    z-index: 123;
 }
 
 .header ul {
