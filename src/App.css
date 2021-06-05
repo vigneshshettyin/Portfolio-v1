@@ -6,6 +6,13 @@
   height: 40vmin;
 }
 
+.maint{
+  position: absolute;
+  top: 0;
+  width: 99vw;
+  left: 0;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
