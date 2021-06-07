@@ -12,7 +12,7 @@ function Education(props) {
   return (
     <div className="education-main maint">
       <Header theme={props.theme} setTheme={props.setTheme} />
-      <div className="basic-education">
+      <div className="basic-education content21">
         <Fade bottom duration={2000} distance="40px">
           <div className="heading-div">
             <div className="heading-img-div">

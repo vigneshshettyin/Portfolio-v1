@@ -22,7 +22,7 @@ function Contact(props) {
   return (
     <div className="contact-main maint">
       <Header theme={theme} setTheme={props.setTheme} />
-      <div className="basic-contact">
+      <div className="basic-contact content21">
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
@@ -54,9 +54,9 @@ function Contact(props) {
               </a>
             </div>
           </div>
-          <Footer theme={props.theme} onToggle={props.onToggle} />
         </Fade>
       </div>
+      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }
