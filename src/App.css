@@ -12,6 +12,10 @@
   left: 0;
 }
 
+.content21 {
+  min-height: 82vh;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

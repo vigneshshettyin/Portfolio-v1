@@ -13,7 +13,7 @@ function Experience(props) {
   return (
     <div className="experience-main maint">
       <Header theme={theme} setTheme={props.setTheme} />
-      <div className="basic-experience">
+      <div className="basic-experience content21">
         <Fade bottom duration={2000} distance="40px">
           <div className="experience-heading-div">
             <div className="experience-heading-img-div">
@@ -41,8 +41,8 @@ function Experience(props) {
             </div>
           </div>
         </Fade>
+        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
       </div>
-      <ExperienceAccordion sections={experience["sections"]} theme={theme} />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
