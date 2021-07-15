@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
+  isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-167291395-1",
 };
@@ -15,7 +15,7 @@ const greeting = {
   nickname: "Vignesh",
   full_name: "Vignesh Shetty",
   subTitle: "Full Stack Developer & Open Source Enthusiast 🧑‍🚀",
-  resumeLink: "#",
+  resumeLink: "https://www.dropbox.com/s/3doe0nyo3pj4617/Vignesh%27s%20Resume.pdf?dl=0",
   mail: "mailto:contact@vigneshcodes.in",
 };
 
@@ -78,13 +78,13 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "simple-icons:node-dot-js",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
@@ -92,13 +92,13 @@ const skills = {
             color: "#CB3837",
           },
         },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#439743",
-        //   },
-        // },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#439743",
+          },
+        },
         {
           skillName: "GraphQL",
           fontAwesomeClassname: "simple-icons:graphql",
