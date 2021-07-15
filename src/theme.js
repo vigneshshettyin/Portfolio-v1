@@ -34,4 +34,4 @@ const darkTheme = {
   avatarShoes: "#2B2B2B",
 };
 
-export const themes = { light: lightTheme, dark: darkTheme };
+export const themes = { light: darkTheme, dark: lightTheme };
