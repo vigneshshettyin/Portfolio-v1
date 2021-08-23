@@ -15,7 +15,7 @@ const greeting = {
   nickname: "Vignesh",
   full_name: "Vignesh Shetty",
   subTitle: "Full Stack Developer & Open Source Enthusiast 🧑‍🚀",
-  resumeLink: "https://www.dropbox.com/s/3doe0nyo3pj4617/Vignesh%27s%20Resume.pdf?dl=0",
+  resumeLink: "https://go.vigneshcodes.in/resume",
   mail: "mailto:contact@vigneshcodes.in",
 };
 
