@@ -4,7 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Contact from "../pages/contact/ContactComponent";
+// import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 
@@ -56,7 +56,7 @@ export default function Main(propss) {
                 />
               )}
             />
-            <Route
+            {/* <Route
               path="/contact"
               render={(props) => (
                 <Contact
@@ -65,7 +65,7 @@ export default function Main(propss) {
                   setTheme={propss.setTheme}
                 />
               )}
-            />
+            /> */}
             <Route
               path="/splash"
               render={(props) => (
@@ -137,7 +137,7 @@ export default function Main(propss) {
                 />
               )}
             />
-            <Route
+            {/* <Route
               path="/contact"
               render={(props) => (
                 <Contact
@@ -146,7 +146,7 @@ export default function Main(propss) {
                   setTheme={propss.setTheme}
                 />
               )}
-            />
+            /> */}
             <Route
               path="/projects"
               render={(props) => (

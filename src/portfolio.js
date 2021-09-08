@@ -451,10 +451,10 @@ const experience = {
           company_url: "https://letsgrowmore.in/",
           logo_path:
             "https://res.cloudinary.com/vigneshshettyin/image/upload/v1626325050/ipewprop5jw9aofyeemx.png",
-          duration: "June 2021 - Present",
+          duration: "June 2021 - Aug 2021",
           location: "Work from Home",
           description:
-            "I have a responsibility to maintain a project and mentor participants.",
+            "I Had a responsibility to maintain a project and mentor participants. Meet huge tech enthusiasts all through the globe that a great time guiding and collaborating with them.",
           color: "#36c848",
         },
       ],
@@ -466,7 +466,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I spend my time creating Flask, Django Backend Projects, Python Scripts and React Projects. I have a keen interest in learning new technologies and working with them.",
+    "I spend my time creating Flask, Node JS Projects, Python Scripts and React Projects. I have a keen interest in learning new technologies and working with them.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -542,11 +542,10 @@ const projects = {
     },
     {
       id: "2",
-      name: "Online Certificate Generation & Verification",
-      url:
-        "https://github.com/vigneshshettyin/Online-Certificate-Generation-Verification",
+      name: "RestFul Blog",
+      url: "https://github.com/vigneshshettyin/RestFul-Blog",
       description:
-        "Database Management System Mini Project Online Certificate Generation Verification. Includes backend dashboard can also perform CRUD operations via dashboard.",
+        "Developer Blog Using Express Back-end & React Front-end With Markdown Support.",
       languages: [
         {
           name: "HTML5",
@@ -561,8 +560,12 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
         {
-          name: "PHP",
-          iconifyClass: "logos-php",
+          name: "Node JS",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
         },
       ],
     },

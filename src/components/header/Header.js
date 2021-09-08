@@ -127,12 +127,13 @@ function Header(props) {
             <li>
               <NavLink
                 className="cr"
-                to="/contact"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
+                to="/"
+                onClick={() => {
+                  window.open("https://go.vigneshcodes.in/resume", "_blank");
+                }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                CONTACT
+                RESUME
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>
