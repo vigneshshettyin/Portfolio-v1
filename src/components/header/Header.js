@@ -126,6 +126,18 @@ function Header(props) {
             </li>
             <li>
               <NavLink
+                className="blogHashnode"
+                to="/"
+                onClick={() => {
+                  window.open("https://blog.vigneshcodes.in/", "_blank");
+                }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                BLOGS
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 className="cr"
                 to="/"
                 onClick={() => {
@@ -136,6 +148,7 @@ function Header(props) {
                 RESUME
               </NavLink>
             </li>
+
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

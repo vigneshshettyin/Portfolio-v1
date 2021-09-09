@@ -545,7 +545,7 @@ const projects = {
       name: "RestFul Blog",
       url: "https://github.com/vigneshshettyin/RestFul-Blog",
       description:
-        "Developer Blog Using Express Back-end & React Front-end With Markdown Support.",
+        "Developer Blog Using Express Back-end and React Front-end With Markdown Support.",
       languages: [
         {
           name: "HTML5",
