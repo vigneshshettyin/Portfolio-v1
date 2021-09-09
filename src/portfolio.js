@@ -1,9 +1,6 @@
-/* Change this file to get your personal Porfolio */
-
-// Website related settings
 const settings = {
-  isSplash: false, // Change this to true if you want to use the splash screen.
-  useCustomCursor: false, // Change this to false if you want the good'ol cursor
+  isSplash: false,
+  useCustomCursor: false,
   googleTrackingID: "UA-167291395-1",
 };
 
@@ -183,13 +180,6 @@ const skills = {
             color: "#E94E32",
           },
         },
-        // {
-        //   skillName: "C++",
-        //   fontAwesomeClassname: "simple-icons:cplusplus",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
         {
           skillName: "Python",
           fontAwesomeClassname: "simple-icons:python",
@@ -227,6 +217,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:heroku",
           style: {
             color: "#6863A6",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#2396f1",
           },
         },
         {
@@ -599,7 +596,7 @@ const projects = {
       name: "Open Source React",
       url: "https://github.com/vigneshshettyin/Open-Source-React",
       description:
-        "Realtime search results for climate and images, Covid-19 tracker, Particle-JS.....",
+        "Realtime search results for climate and images, Covid-19 tracker, Particle-JS, Host Checker, Vaccine Update, Discord Webhooks, etc.....",
       languages: [
         {
           name: "HTML5",
