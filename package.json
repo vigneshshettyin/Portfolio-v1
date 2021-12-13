@@ -31,7 +31,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "styled-components": "^5.2.1",
-    "styletron-engine-atomic": "^1.4.6",
+    "styletron-engine-atomic": "1.4.8",
     "styletron-react": "^5.2.7"
   },
   "devDependencies": {
